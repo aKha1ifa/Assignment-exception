@@ -27,11 +27,11 @@ document them in your code.
 
 - **Main.java**: This is the class where you should implement your program logic.
 
-- **Empty.arxml**: This is an empty ARXML file for testing the empty file case.
+- **r.arxml**: This is an empty ARXML file for testing the empty file case.
 
-- **a.arxml**: This is a normal ARXML file for testing the normal case.
+- **e.arxml**: This is a normal ARXML file for testing the normal case.
 
-- **WA.txt**: This is a Word document for testing the wrong extension case.
+- **e.txt**: This is a Word document for testing the wrong extension case.
 
 - **run.bat**: This is a batch file that runs your program with different input files for testing purposes.
 
