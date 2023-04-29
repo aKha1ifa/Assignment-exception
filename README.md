@@ -2,18 +2,10 @@
 
 This assignment requires you to write a program that can read and reorder containers in an ARXML file. ARXML stands for Autosar XML, which is a format used by AUTOSAR (AUTomotive Open System ARchitecture), a standardization initiative for the automotive industry.
 
-## Task Description
+## Task 
 
-Your program should perform the following steps:
+Your program should Reorder the containers alphabetically by their name sub-container “SHORT-NAME”.
 
-- Read an ARXML file that contains a list of containers, each with a unique ID and 
-a name sub-container “SHORT-NAME”.
-
-- Reorder the containers alphabetically by their name sub-container “SHORT-NAME”.
-
-- Write the reordered containers to a new ARXML file with the same name as the input file, 
-but with “_mod.arxml” appended to it. For example, if the input file is “Rte_Ecuc.arxml”, 
-the output file should be “Rte_Ecuc_mod.arxml”.
 
 ## Requirements:
 
@@ -31,7 +23,7 @@ called “EmptyAutosarFileException”.
 - If any requirement is missing or unclear, you should make reasonable assumptions and 
 document them in your code.
 
-## Files Description:
+## Files :
 
 - **Main.java**: This is the class where you should implement your program logic.
 
@@ -51,7 +43,7 @@ To run your program with a single input file, use the following command:
 
 where `<your_file>` is the name of the ARXML file you want to process. For example:
 
-`java Main.java a.arxml`
+`java Main.java e.arxml`
 
 This will create a new file called “a_mod.arxml” with the reordered containers.
 
